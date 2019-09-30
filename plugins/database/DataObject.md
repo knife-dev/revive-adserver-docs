@@ -11,6 +11,10 @@ A DataObject is a "model" in the database.
 - `db_schema.links.ini` is generated from the Database XML manifest.
 - `$DATAOBJECT_NAME.php` is generated from the Database XML manifest.
 
+### How to auto generate the DataObject files:
+Use a browser to go to Revive Adserver's /www/devel directory
+
+
 ### DataObject XML Attributes
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
