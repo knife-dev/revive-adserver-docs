@@ -7,5 +7,6 @@
     - [XML Manifest](plugins/files/manifest.md)
   - Database Schema
     - [Getting Started](plugins/database/index.md)
+    - [DataObject](plugins/database/DataObject.md)
   - [Hooks](plugins/hooks/index.md)
     - [deliveryLimitations](plugins/hooks/deliveryLimitations.md)

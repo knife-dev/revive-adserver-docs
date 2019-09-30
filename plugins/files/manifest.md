@@ -94,7 +94,7 @@ This page describes how the XML Manifest of a subplugin is structured.
 </plugin>
 ```
 ### Explanation:
-- `$PLUGIN_NAME`is the plugin's name and must match and follow the [Plugin's Structure]()
+- `$SUBPLUGIN_NAME`is the subplugin's name and must match and follow the [Subplugin's Structure]()
 - `<displayName>`allows to set the Plugin's name (displayed on the admin UI).
 - `<creationDate>`allows to set the Plugin's creation date(displayed on the admin UI).
 - `<author>`allows to set the Plugin author's name(displayed on the admin UI).
