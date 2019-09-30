@@ -1,0 +1,11 @@
+- Getting started
+  - [Quick start](README.md)
+
+- Plugin Development
+  - [Introduction](plugins/index.md)
+  - Plugin Files
+    - [XML Manifest](plugins/files/manifest.md)
+  - Database Schema
+    - [Getting Started](plugins/database/index.md)
+  - [Hooks](plugins/hooks/index.md)
+    - [deliveryLimitations](plugins/hooks/deliveryLimitations.md)
