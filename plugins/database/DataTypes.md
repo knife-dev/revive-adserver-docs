@@ -4,7 +4,7 @@
 ### Getting Started
 The DataTypes are used in the `<field>` part of the DataObject XML table. Them should be defined with `<type>`.
 
-> Equalities need to be confirmed, the info displayed here is not tested yet. Use this at your own risk.
+!> Equalities need to be confirmed, the info displayed here is not tested yet. Use this at your own risk.
 
 ##### Available DataTypes:
 - `openads_datetime` is equivalent to a MySQL `DateTime`

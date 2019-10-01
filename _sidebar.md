@@ -1,13 +1,16 @@
-- Getting started
-  - [Quick start](README.md)
+- Welcome
+  - [Introduction](/)
 
 - Plugin Development
-  - [Introduction](plugins/index.md)
+  - [Introduction](plugins/index)
+  - [Plugin's Structure](plugins/plugin_structure)
+  - [Subplugin's Structure](plugins/plugin_subplugin_structure)
   - Plugin Files
-    - [XML Manifest](plugins/files/manifest.md)
+    - [Plugin XML Manifest](plugins/files/manifest)
+    - [Subplugin XML Manifest](plugins/files/subplugin_manifest)
   - Database Schema
-    - [Getting Started](plugins/database/index.md)
-    - [DataObject](plugins/database/DataObject.md)
-        - [DataTypes](plugins/database/DataTypes.md)
-  - [Hooks](plugins/hooks/index.md)
-    - [deliveryLimitations](plugins/hooks/deliveryLimitations.md)
+    - [Getting Started](plugins/database/index)
+    - [DataObject](plugins/database/DataObject)
+        - [DataTypes](plugins/database/DataTypes)
+  - [Hooks](plugins/hooks/index)
+    - [deliveryLimitations](plugins/hooks/deliveryLimitations)

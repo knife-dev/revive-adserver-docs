@@ -1,4 +1,4 @@
-# Database DataObject
+# DataObject
 !> Documentation is incomplete.
 
 ### Getting Started
