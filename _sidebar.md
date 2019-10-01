@@ -8,5 +8,6 @@
   - Database Schema
     - [Getting Started](plugins/database/index.md)
     - [DataObject](plugins/database/DataObject.md)
+        - [DataTypes](plugins/database/DataTypes.md)
   - [Hooks](plugins/hooks/index.md)
     - [deliveryLimitations](plugins/hooks/deliveryLimitations.md)
