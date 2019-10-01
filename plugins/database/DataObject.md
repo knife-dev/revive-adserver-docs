@@ -4,7 +4,7 @@
 ### Getting Started
 A DataObject is a "model" in the database.
 
-> DataObject schema must be defined under the database's XML manifest file in order to auto-generate the php and ini files. See [database's schema]() for more info.
+> DataObject schema must be defined under the database's XML manifest file in order to auto-generate the php and ini files. See [database's manifest](plugins/database/manifest) for more info.
 
 ##### DataObjects auto-generated files:
 - `db_schema.ini` is generated from the Database XML manifest.
@@ -51,7 +51,7 @@ In order to auto generate the dataobject and database schema files, the followin
  </table>
 </database>
 ```
-!> Please note that in this example, we are only explaning the `<table>` part of the [XML Database Manifest]().
+!> Please note that in this example, we are only explaning the `<table>` part of the [XML Database Manifest](/plugins/database/manifest).
 
 ### Explanation
 - `$TABLE_NAME`is the name the table on the mysql database will have.

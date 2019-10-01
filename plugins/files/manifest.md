@@ -35,7 +35,7 @@ This page describes how the XML Manifest of a plugin is structured.
 </plugin>
 ```
 ### Explanation:
-- `$PLUGIN_NAME`is the plugin's name and must match and follow the [Plugin's Structure]()
+- `$PLUGIN_NAME`is the plugin's name
 - `<displayName>`allows to set the Plugin's name (displayed on the admin UI).
 - `<creationDate>`allows to set the Plugin's creation date(displayed on the admin UI).
 - `<author>`allows to set the Plugin author's name(displayed on the admin UI).
@@ -53,6 +53,6 @@ This page describes how the XML Manifest of a plugin is structured.
             - `{ADMINPATH}`is equivalent to the `/www/admin/plugins/$PLUGIN_NAME` directory. 
     - `<contents>`Contains all the plugins packaged with the Plugin.
         - `<group>` declares a subplugin where:
-            - `$SUBPLUGIN_NAME`is the subplugin's name and must match and follow the [SubPlugin's Structure]()
+            - `$SUBPLUGIN_NAME`is the subplugin's name and must match and follow the [SubPlugin's structure](/plugins/files/subplugin_manifest)
             - `$PRIORITY`is the priority of the subplugin. (Loading order, from 1 to 999....)
 - `<readme>`is used to set the Plugin's readme text, however if not specified, the readme file from the top-level plugin's directory will be used.
