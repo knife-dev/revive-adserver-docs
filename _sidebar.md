@@ -10,6 +10,7 @@
     - [Subplugin XML Manifest](/plugins/files/subplugin_manifest)
   - Database Schema
     - [Getting Started](plugins/database/index)
+    - [Development](/plugins/database/development)
     - [XML Manifest](/plugins/database/manifest)
     - [DataObject](/plugins/database/DataObject)
         - [DataTypes](/plugins/database/DataTypes)

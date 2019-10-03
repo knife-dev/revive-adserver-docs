@@ -16,7 +16,7 @@ This manifest defines the tables a plugin uses.
     <overwrite>$OVERWRITE</overwrite>
     <version>$VERSION</version>
     <status>$STATUS</status>
-    
+
     <table>...</table>
     ...
     <table>...</table>
@@ -26,7 +26,7 @@ This manifest defines the tables a plugin uses.
 !> Please note that in this example, we are only explaning the `<database>` path. For `<table>` explanation see [DataObject](/plugins/database/DataObject).
 
 ### Explanation
-- `$NAME`is the name for this database scheme (it is not the databasen name).
+- `$NAME`is the name for this database scheme (it is not the database name).
 - `$CREATE`is a`boolean`to define if this scheme should be created or not.
 - `$OVERWRITE`is a`boolean`to define if this scheme should be overwritten if already exists.
 - `$VERSION`is a`number`used for versioning the scheme.
