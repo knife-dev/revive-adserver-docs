@@ -42,8 +42,8 @@ OA_DB_DataObject_Generator: 0: DONE```
 ### Declare your schema files into the subplugin's manifest
 Once you have generated your DataObject files and db_schema.ini file, you will need to declare them in your subplugin's manifest.
 0. cd to: `/plugins/etc/your-subplugin-name/`
-0. Delete any declarations you made in [step 3](#prepare-your-subplugin-to-have-it39s-own-schema) when you prepared the subplugin
 0. Locate your subplugin's manifest: `your-subplugin-name.xml` and open it:
+0. Delete any declarations you made in [step 3](#prepare-your-subplugin-to-have-it39s-own-schema) when you prepared the subplugin
 0. Declare all the schema related files inside the`<schema>`path.
 ```
         <schema>
